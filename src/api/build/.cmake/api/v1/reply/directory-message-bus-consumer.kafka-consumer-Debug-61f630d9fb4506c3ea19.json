@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "message-bus-consumer/kafka-consumer",
+		"source" : "message-bus-consumer/kafka-consumer"
+	}
+}

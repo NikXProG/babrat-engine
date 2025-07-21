@@ -1,0 +1,197 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/librdkafka-build",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.librdkafka-build-Debug-b349d249e1da55d71b5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/librdkafka-src"
+				},
+				{
+					"build" : "_deps/librdkafka-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.librdkafka-build.src-Debug-23f7fd699e349eac19dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/librdkafka-src/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/librdkafka-build/src-cpp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.librdkafka-build.src-cpp-Debug-7666b1c0a02532c4ade0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/librdkafka-src/src-cpp",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/modern-cppkafka-build",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.modern-cppkafka-build-Debug-da375eab60b8cfbed21a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "build/_deps/modern-cppkafka-src"
+				},
+				{
+					"build" : "_deps/modern-cppkafka-build/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.modern-cppkafka-build.include-Debug-b7079b00128d2decc20d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "build/_deps/modern-cppkafka-src/include"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bbrt_srvr_src_api_brkr_consmr-kafka",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "RdKafka",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Modern C++ Kafka API",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "modern-cpp-kafka-api",
+					"parentIndex" : 2
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bbrt_srvr_src_api_brkr_consmr-kafka::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bbrt_srvr_src_api_brkr_consmr-kafka-Debug-3c8718ee0f5a3c55b2fe.json",
+					"name" : "bbrt_srvr_src_api_brkr_consmr-kafka",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rdkafka::@dca115cb71c010db3b66",
+					"jsonFile" : "target-rdkafka-Debug-ada05e86b367f2e6dbde.json",
+					"name" : "rdkafka",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rdkafka++::@7a014bbb7954f8d58b99",
+					"jsonFile" : "target-rdkafka++-Debug-c3cb5591a4d29bba7b42.json",
+					"name" : "rdkafka++",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/nikx/CLionProjects/babrat-server/src/api/message-bus-consumer/kafka-consumer/build",
+		"source" : "/Users/nikx/CLionProjects/babrat-server/src/api/message-bus-consumer/kafka-consumer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,333 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/librdkafka-build/src-cpp/librdkafka++.dylib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"build/_deps/librdkafka-src/src-cpp/CMakeLists.txt",
+			"build/_deps/librdkafka-src/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 207,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 233,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 250,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -fPIC -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "LIBRDKAFKACPP_EXPORTS"
+				},
+				{
+					"define" : "rdkafka___EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/Users/nikx/CLionProjects/babrat-server/src/api/message-bus-consumer/kafka-consumer/build/_deps/librdkafka-src/src-cpp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/nikx/CLionProjects/babrat-server/src/api/message-bus-consumer/kafka-consumer/build/_deps/librdkafka-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/nikx/CLionProjects/babrat-server/src/api/message-bus-consumer/kafka-consumer/build/_deps/librdkafka-build/generated/dummy"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/Cellar/openssl@3/3.5.0/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "rdkafka::@dca115cb71c010db3b66"
+		}
+	],
+	"id" : "rdkafka++::@7a014bbb7954f8d58b99",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/nikx/CLionProjects/babrat-server/src/api/message-bus-consumer/kafka-consumer/build/_deps/librdkafka-build/src",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/librdkafka-build/src/librdkafka.1.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/Cellar/openssl@3/3.5.0/lib/libssl.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/Cellar/openssl@3/3.5.0/lib/libcrypto.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lsasl2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/homebrew/lib/liblz4.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "rdkafka++",
+	"nameOnDisk" : "librdkafka++.dylib",
+	"paths" : 
+	{
+		"build" : "_deps/librdkafka-build/src-cpp",
+		"source" : "build/_deps/librdkafka-src/src-cpp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/ConfImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/ConsumerImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/HandleImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/HeadersImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/KafkaConsumerImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/MessageImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/MetadataImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/ProducerImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/QueueImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/RdKafka.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/TopicImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/librdkafka-src/src-cpp/TopicPartitionImpl.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
