@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cmake_minimum_required(VERSION 3.14)
 
 # ---------------------------------------------------------------------------------------
@@ -8,11 +9,20 @@ project(babrat
         VERSION 1.0.0
         DESCRIPTION "Educational database system exploring core DB architecture"
         LANGUAGES CXX)
+=======
+cmake_minimum_required(VERSION 3.30)
+project(babrat
+        VERSION 1.0
+        DESCRIPTION "Babrat DBMS Server"
+        LANGUAGES CXX
+)
+>>>>>>> c6974f1aefbdf4da1c1a0abe17222de4b8f57795
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+<<<<<<< HEAD
 include(cmake/utils.cmake)
 
 #[[include(cmake/boost.cmake)
@@ -380,4 +390,7 @@ if(BABRAT_BUILD_DOCS)
 endif()
 
 
+=======
+add_subdirectory(src)
+>>>>>>> c6974f1aefbdf4da1c1a0abe17222de4b8f57795
 

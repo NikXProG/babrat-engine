@@ -1,0 +1,8 @@
+//
+// Created by NikX on 10.06.2025.
+//
+
+#ifndef BABRAT_UPDATE_COMMAND_H
+#define BABRAT_UPDATE_COMMAND_H
+
+#endif //BABRAT_UPDATE_COMMAND_H
