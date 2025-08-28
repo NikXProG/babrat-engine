@@ -11,7 +11,6 @@ using namespace statement;*/
 /*using namespace execution;*/
 
 #include <babrat/babrat.hpp>
-
 #include <babrat/planner/planner.hpp>
 
 
