@@ -1,0 +1,7 @@
+#ifndef BABRAT_ATTRIBUTE_FACTORY_H
+#define BABRAT_ATTRIBUTE_FACTORY_H
+
+class AttributeFactory{
+
+};
+#endif //BABRAT_ATTRIBUTE_FACTORY_H
